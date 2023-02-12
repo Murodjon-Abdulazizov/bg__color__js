@@ -1,0 +1,29 @@
+button{
+  display: block;
+  padding: 20px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 300px;
+  cursor: pointer;
+  background-color: antiquewhite;
+  border-color: transparent;
+  border-radius: 10px;
+}
+
+.bg__img{
+  width: 300px;
+  height: 300px;
+}
+
+.img__one{
+  background-image: url("https://picsum.photos/id/1/300/300");
+}
+
+.img__two{
+  background-image: url("https://picsum.photos/id/2/300/300");
+}
+
+.img__three{
+  background-image: url("https://picsum.photos/id/3/300/300");
+}
