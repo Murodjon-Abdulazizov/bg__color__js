@@ -43,8 +43,8 @@ but.addEventListener('click', function(){
       <td> ${i+1} </td>
       <td>${tasks[i].textare__value}</td>
       <td>${tasks[i].date__value}</td>
-      <td> <button class="delete">D</button> </td>
-      <td> <button class="edit">E</button> </td>
+      <td> <button class="delete" onclick = "deleting(${i})">Delete</button> </td>
+      <td> <button class="edit">Edit</button> </td>
     </tr>
       `
     }
@@ -52,3 +52,7 @@ but.addEventListener('click', function(){
   chizadigan()
   document.querySelector('form').reset()
 })
+
+function deleting(index){
+  tasks.splice(index , 1);
+}
