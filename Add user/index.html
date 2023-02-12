@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <table class="table__info">
+        <thead class="table__heading">
+            <tr>
+                <th>Ismi</th>
+                <th>Familiyasi</th>
+                <th>Guruhi</th>
+                <th>Tugilgan yili</th>
+                <th>Ish joyi</th>
+                <th>O'chirish</th>
+                <th>Editing</th>
+            </tr>  
+            
+        </thead>
+        <tbody class="table__body">
+        </tbody>
+    </table>
+    
+    
+    <form name="myForm" class="myForm">
+        <input type="text" class="firstName" placeholder="Ismingizni kiriting">
+        <input type="text" class="lastName" placeholder="Familiyan">
+        <input type="text" class="group" placeholder="Guruhingizni kiriting">
+        <input type="text" class="year" placeholder="Tugilgan yilingiz">
+        <input type="text" class="job" placeholder="Kasbingiz">
+        
+        <button class="add_user" type="button" onclick="user_qoshadigan()">add users</button>
+        
+        
+    </form>
+    
+    <script src="main.js"></script>
+</body>
+</html>

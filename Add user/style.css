@@ -1,0 +1,44 @@
+table  {
+  width: 100%;
+  border: 5px solid #3c2e2e;
+  padding: 10px;
+}
+
+th, td{
+  border: 1px solid black;
+}
+
+.add__users__info{
+  background-color: #787676;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.myForm{
+  border: 5px solid rgb(66, 65, 63);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+
+input{
+  border: 3px solid rgb(93, 92, 90);
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.add_user{
+  background-color: aliceblue;
+  text-transform: uppercase;
+  border: 5px solid rgb(67, 66, 66);
+  padding: 20px;
+}
+
+.delete{
+  background-color: red;
+  color: #3c2e2e;
+}
